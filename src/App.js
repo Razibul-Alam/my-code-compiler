@@ -40,7 +40,7 @@ function compile() {
 	}
 
 	// Post request to compile endpoint
-	Axios.post(`http://localhost:8000/compile`, {
+	Axios.post(`https://warm-scrubland-69139.herokuapp.com/compile`, {
 	code: userCode,
 	language: userLang,
 	input: userInput }).then((res) => {
